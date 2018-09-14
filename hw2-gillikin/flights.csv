@@ -1,0 +1,91 @@
+Airline,Destination,Flights Apr 2018,Seats Apr 2018
+Southern Airways,Altoona,51,510
+Southern Airways,Bradford,103,1030
+Southern Airways,DuBois,102,1020
+Southern Airways,Franklin,81,810
+Southern Airways,Hagerstown,30,300
+Southern Airways,Jamestown,0,0
+Southern Airways,Johnstown,102,1020
+Southern Airways,Lancaster,72,720
+Southern Airways,Harrisburg,51,510
+Southern Airways,Morgantown,102,1020
+American,Boston,75,"3,376"
+American,Charlotte,262,"31,862"
+American,Cancun,4,512
+American,Washington (National),107,"7,066"
+American,Dallas/Fort Worth,107,"14,916"
+American,New York,30,"1,332"
+American,New York (LaGuardia),158,8874
+American,Miami,90,"6,060"
+American,Chicago O'Hare,163,"16,175"
+American,Philadelphia,170,"16,392"
+American,Phoenix,55,"7,040"
+American,Raleigh-Durham,56,"2,800"
+Air Canada,Toronto (Pearson),84,"4,200"
+JetBlue,Boston,168,"16,800"
+JetBlue,Fort Lauderdale,30,"4,500"
+Delta,Atlanta,223,"33,764"
+Delta,Boston,56,"4,256"
+Delta,Cancun,4,596
+Delta,Detroit,142,13618
+Delta,New York,90,"6,840"
+Delta,New York (LaGuardia),185,"13,319"
+Delta,Orlando,0,0
+Delta,Minneapolis,99,10431
+Frontier,Denver,10,1500
+Frontier,Las Vegas,0,0
+Frontier,Orlando,3,690
+Allegiant Air,Austin,9,"1,404"
+Allegiant Air,Charleston,8,"1,248"
+Allegiant Air,Jacksonville,10,"1,560"
+Allegiant Air,New Orleans,9,"1,404"
+Allegiant Air,Myrtle Beach,8,"1,248"
+Allegiant Air,Punta Gorda,21,3444
+Allegiant Air,St. Pete/Clearwater,18,2976
+Allegiant Air,Savannah/Hilton Head,12,1872
+Allegiant Air,Orlando/Sanford,13,2160
+Allegiant Air,San Juan,0,0
+Allegiant Air,Sarasota/Bradenton,6,936
+OneJet,Albany,21,147
+OneJet,Hartford,42,294
+OneJet,Cincinnati,0,0
+OneJet,Indianapolis,42,294
+OneJet,Kansas City,42,1260
+OneJet,Milwaukee,21,147
+OneJet,Palm Beach,17,510
+OneJet,Providence,21,147
+OneJet,Richmond,0,0
+OneJet,Louisville,42,294
+Spirit,Dallas/Fort Worth,25,"3,884"
+Spirit,Fort Lauderdale,25,3847
+Spirit,Las Vegas,30,4757
+Spirit,Los Angeles,30,"4,350"
+Spirit,Orlando,30,4757
+Spirit,Myrtle Beach,24,"3,702"
+Spirit,Ft. Myers,11,"2,002"
+Spirit,Tampa,11,"2,002"
+Porter,Toronto (City Center),0,0
+United,Denver,56,"8,018"
+United,Newark,204,"14,928"
+United,Washington (Dulles),114,"8,956"
+United,Houston (Intercontinental),118,"8,420"
+United,Chicago O'Hare,176,"16,218"
+United,San Francisco,30,"5,228"
+Southwest,Atlanta,55,"8,569"
+Southwest,Nashville,50,"7,150"
+Southwest,Baltimore,81,"11,935"
+Southwest,Dallas (Love),30,4354
+Southwest,Denver,31,4529
+Southwest,Fort Lauderdale,40,6232
+Southwest,Houston (Hobby),30,"4,546"
+Southwest,Las Vegas,56,9608
+Southwest,Los Angeles,26,4358
+Southwest,Orlando,130,20318
+Southwest,Chicago (Midway),132,19996
+Southwest,New Orleans,5,715
+Southwest,Palm Beach,1,143
+Southwest,Phoenix,30,4962
+Southwest,Ft. Myers,40,6456
+Southwest,St. Louis,34,4990
+Southwest,Tampa,91,13013
+WOW air,Reykjavik,18,3600
