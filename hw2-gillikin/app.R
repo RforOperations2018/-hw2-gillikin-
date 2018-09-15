@@ -8,7 +8,7 @@ library(stringr)
 
 
 #load the dataset flights.csv of all the flights out of PIT between January and April 2018
-flightData <- read.csv("flights.csv")
+flightData <- read.csv("flights.csv") # You've got some function columns in here that should have been removed.
 
 # Define UI for application that draws a histogram
 ui <- navbarPage("Flights from Pittsburgh International Airport, January - April 2018", 
@@ -28,7 +28,6 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                                           selected = c("Chicago O'Hare", "Philadelphia")),
                               actionButton("reset", "Reset Selection", icon = icon("refresh"))
                           ),
-
                             # Output plot
                             mainPanel(
                                # Output of text for the pick-your-own caption
@@ -54,6 +53,7 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
 # Define server logic
 server <- function(input, output, session = session) {
   # making thing reactive
+  # So you don't have to do a reactive function for each input, you can put them both together, it works, but its messy, and unncessary
   fdInput <- reactive({
     flights <- flightData
     if (length(input$destinationSelect) > 0 ) {
@@ -63,8 +63,10 @@ server <- function(input, output, session = session) {
   })
   # making thing reactive?????
   fdaInput <- reactive({
-    flights.a <- flightData
-    filter(seats == input$seatsSelect[1])
+    flights.a <- flightData %>%
+    # You removed this input, but in the future you'd want to write it like this: 
+      filter(seats == input$seatsSelect[1])
+    # Also it can be a part of a single reactive function so it could have been moved to fdInput
     return(flights.a)
   })
   # Make-you-own caption
