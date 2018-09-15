@@ -53,12 +53,15 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                  ),
                  # Data Table
                  tabPanel("Table",
+                          inputPanel(
+                            downloadButton("downloadData","Download FLight Data")
+                          ),
                           fluidPage(DT::dataTableOutput("table"))
                  )
 )
 
 # Define server logic
-server <- function(input, output) {
+server <- function(input, output, session = session) {
 
   fdInput <- reactive({
     flights <- flightData
@@ -82,7 +85,7 @@ server <- function(input, output) {
   output$caption <- renderText({
     input$caption
   })
-  
+  # Plot 1
   output$plot1 <- renderPlotly({
     dat <- fdInput()
     ggplotly(
@@ -91,20 +94,27 @@ server <- function(input, output) {
         guides(color = FALSE)
       , tooltip = "text")
   })
-  
-
+  # Plot 2
   output$plot2 <- renderPlotly({
     dat.a <- fdInput()
     ggplotly(
       ggplot(data = dat.a, aes(x = number, fill = month),environment = environment()) + 
         geom_histogram())
   })
-  
+  # Datatable
   output$table <- DT::renderDataTable({
     subset(fdInput(), select = c(month, airline, destination, number))
   })
+
+  # Download data in the datatable
+  output$downloadData <- downloadHandler(
+    filename = function() {
+      paste("flights-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(fdInput(), file)
+    }
+  )
 }
-
-
 # Run the application 
-shinyApp(ui = ui, server = server)
+shinyApp(ui = ui, server = server, enableBookmarking = "url")
