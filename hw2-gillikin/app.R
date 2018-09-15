@@ -17,15 +17,22 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                  tabPanel("Plot",
                           sidebarLayout(
                             sidebarPanel(
+                              textInput(inputId = "caption",
+                                        label = "Your chance to name this plot:",
+                                        value = "Data Summary"),
                               selectInput("airlineSelect",
-                                          "Airline: ",
+                                          "Now pick an Airline: ",
                                           choices = sort(unique(flightData$airline)),
                                           multiple = TRUE,
                                           selectize = TRUE,
-                                          selected = c("American", "Southwest"))),
+                                          selected = c("Air Canada", "JetBlue"))),
 
                             # Output plot
                             mainPanel(
+                             
+                               # Output: Formatted text for caption ----
+                              h3(textOutput("caption", container = span)),
+                              
                               plotlyOutput("plot")
                             )
                           )
@@ -50,11 +57,14 @@ server <- function(input, output) {
     return(flights)
   })
 
-
+  output$caption <- renderText({
+    input$caption
+  })
+  
   output$plot <- renderPlotly({
     dat <- fdInput()
     ggplotly(
-      ggplot(data = dat, aes(x = airline, y = number, color = month)) + 
+      ggplot(data = dat, aes(x = month, y = number, color = month)) + 
         geom_point() +
         guides(color = FALSE)
       , tooltip = "text")
