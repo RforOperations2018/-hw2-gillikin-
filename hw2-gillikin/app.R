@@ -45,13 +45,13 @@ server <- function(input, output) {
   output$plot <- renderPlotly({
     dat <- swInput()
     ggplotly(
-      ggplot(data = dat, aes(x = airline, y = number)) + 
+      ggplot(data = dat, aes(x = airline, y = number, color = date)) + 
         geom_point() +
         guides(color = FALSE)
       , tooltip = "text")
   })
   output$table <- DT::renderDataTable({
-    DT::datatable(flightData[, input$show_vars, drop = FALSE])
+    subset(swInput(), select = c(airline, date, number))
   })
 }
 
