@@ -19,7 +19,13 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                               textInput(inputId = "caption",
                                         label = "Your chance to name this plot:",
                                         value = "Data Summary"),
-                              
+                              # Input: Select box to make picking a favorite airline easier
+                              selectInput("destinationSelect",
+                                          "Now pick an Destination: ",
+                                          choices = sort(unique(flightData$destination)),
+                                          multiple = TRUE,
+                                          selectize = TRUE,
+                                          selected = c("Altoona", "Philadelphia")),
                               # Input: Select box to make picking a favorite airline easier
                               selectInput("airlineSelect",
                                           "Now pick an Airline: ",
@@ -27,13 +33,6 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                                           multiple = TRUE,
                                           selectize = TRUE,
                                           selected = c("Air Canada", "JetBlue")),
-                              # Input: Slider to select range for number of flights in a month
-                              sliderInput("seatsSelect",
-                                        "Number of seats a flights has in a month:",
-                                        value = 20000,
-                                        min = 1,
-                                        max = 40000),
-                              # reset action button for observation
                               actionButton("reset", "Reset Selection", icon = icon("refresh"))
                           ),
 
@@ -53,7 +52,7 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                  # Data Table
                  tabPanel("Table",
                           inputPanel(
-                            downloadButton("downloadData","Download FLight Data")
+                            downloadButton("downloadData","Download Flight Data")
                           ),
                           fluidPage(DT::dataTableOutput("table"))
                  )
@@ -64,8 +63,8 @@ server <- function(input, output, session = session) {
   # making thing reactive
   fdInput <- reactive({
     flights <- flightData
-    if (length(input$airlineSelect) > 0 ) {
-      flights <- subset(flights, airline %in% input$airlineSelect)
+    if (length(input$destinationSelect) > 0 ) {
+      flights <- subset(flights, destination %in% input$destinationSelect)
     }
     return(flights)
   })
@@ -108,7 +107,7 @@ server <- function(input, output, session = session) {
   })
   # Reset Selection of Data
   observeEvent(input$reset, {
-    updateSelectInput(session, "airlineSelect", selected = c("Air Canada", "JetBlue"))
+    updateSelectInput(session, "destinationSelect", selected = c("Altoona", "Philadelphia"))
     showNotification("Now ready for takeoff...", type = "message")
   })
   # Download data in the datatable
