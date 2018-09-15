@@ -7,46 +7,70 @@ library(shinythemes)
 library(stringr)
 
 
-# A read-only data set that will load once, when Shiny starts, and will be
-# available to each user session
-flightData <- read.csv('flights.csv')
+#load the dataset flights.csv of all the flights out of PIT during April 2018
+
+
+flightData <- read.csv("flights.csv")
+
+
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(
-   
-   # Application title
-   titlePanel("Pittsburgh International Flights: April 2018"),
-   
-   # Sidebar with a slider input for number of bins 
-   sidebarLayout(
-      sidebarPanel(
-         sliderInput("bins",
-                     "Number of bins:",
-                     min = 1,
-                     max = 50,
-                     value = 30)
-      ),
-      
-      # Show a plot of the generated distribution
-      mainPanel(
-         plotOutput("distPlot")
-      )
-   )
+ui <- navbarPage("PIT", 
+                 tabPanel("Plot",
+                          sidebarLayout(
+                            sidebarPanel(
+                              selectInput("airlineSelect",
+                                          "Airline: ",
+                                          choices = sort(unique(flightData$Airline)),
+                                          multiple = TRUE,
+                                          selectize = TRUE,
+                                          selected = c("American", "Southwest")),
+                              sliderInput("Flights",
+                                          "Flights:",
+                                          min = min(flightData$Number, na.rm = T),
+                                          max = max(flightData$Number, na.rm = T),
+                                          value = c(min(flightData$Number, na.rm = T), max(flightData$Number, na.rm = T)),
+                                          step = 1)
+                            ),
+                            # Output plot
+                            mainPanel(
+                              plotlyOutput("plot")
+                            )
+                          )
+                 ),
+                 # Data Table
+                 tabPanel("Table",
+                          fluidPage(DT::dataTableOutput("table"))
+                 )
 )
 
-# Define server logic required to draw a histogram
+# Define server logic
 server <- function(input, output) {
-   
-   output$distPlot <- renderPlot({
-      # generate bins based on input$bins from ui.R
-      x    <- faithful[, 2] 
-      bins <- seq(min(x), max(x), length.out = input$bins + 1)
-      
-      # draw the histogram with the specified number of bins
-      hist(x, breaks = bins, col = 'darkgray', border = 'white')
-   })
+  swInput <- reactive({
+    flights <- flightData %>%
+      filter(Flights >= input$flightsSelect[1] & birth_year <= flights$birthSelect[2])
+
+    
+    return(flights)
+  })
+  mwInput <- reactive({
+    swInput() %>%
+      melt(id = "name")
+  })
+  output$plot <- renderPlotly({
+    dat <- swInput()
+    ggplotly(
+      ggplot(data = dat, aes(x = mass, y = height, color = species)) + 
+        geom_point() +
+        guides(color = FALSE)
+      , tooltip = "text")
+  })
+  output$table <- DT::renderDataTable({
+    flights <- swInput()
+    
+    subset(flights, select = c(Number))
+  })
 }
 
 # Run the application 
 shinyApp(ui = ui, server = server)
-
