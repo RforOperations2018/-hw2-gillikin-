@@ -19,7 +19,7 @@ ui <- navbarPage("PIT",
                  tabPanel("Plot",
                           sidebarLayout(
                             sidebarPanel(
-                              selectInput("airlineSelect",
+                              selectInput("airline",
                                           "Airline: ",
                                           choices = sort(unique(flightData$Airline)),
                                           multiple = TRUE,
@@ -48,9 +48,7 @@ ui <- navbarPage("PIT",
 server <- function(input, output) {
   swInput <- reactive({
     flights <- flightData %>%
-      filter(Flights >= input$flightsSelect[1] & birth_year <= flights$birthSelect[2])
 
-    
     return(flights)
   })
   mwInput <- reactive({
