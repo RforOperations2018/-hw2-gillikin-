@@ -25,14 +25,7 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                                           choices = sort(unique(flightData$destination)),
                                           multiple = TRUE,
                                           selectize = TRUE,
-                                          selected = c("Altoona", "Philadelphia")),
-                              # Input: Select box to make picking a favorite airline easier
-                              selectInput("airlineSelect",
-                                          "Now pick an Airline: ",
-                                          choices = sort(unique(flightData$airline)),
-                                          multiple = TRUE,
-                                          selectize = TRUE,
-                                          selected = c("Air Canada", "JetBlue")),
+                                          selected = c("Chicago O'Hare", "Philadelphia")),
                               actionButton("reset", "Reset Selection", icon = icon("refresh"))
                           ),
 
@@ -42,7 +35,7 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                               h3(textOutput("caption", container = span)),
                               # Output of plot 1
                               plotlyOutput("plot1"),
-                              # Output for plot 2
+                              # Output for plot 2 (this one doesn't really make a whole lot of sense)
                               plotlyOutput("plot2"),
                               # Output for plot 3
                               plotlyOutput("plot3")
@@ -107,7 +100,7 @@ server <- function(input, output, session = session) {
   })
   # Reset Selection of Data
   observeEvent(input$reset, {
-    updateSelectInput(session, "destinationSelect", selected = c("Altoona", "Philadelphia"))
+    updateSelectInput(session, "destinationSelect", selected = c("Chicago O'Hare", "Philadelphia"))
     showNotification("Now ready for takeoff...", type = "message")
   })
   # Download data in the datatable
@@ -121,4 +114,4 @@ server <- function(input, output, session = session) {
   )
 }
 # Run the application 
-shinyApp(ui = ui, server = server, enableBookmarking = "url")
+shinyApp(ui = ui, server = server)

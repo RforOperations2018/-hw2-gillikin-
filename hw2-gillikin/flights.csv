@@ -1,340 +1,340 @@
-month,airline,destination,number,seats
-April,Southern Airways,Altoona,51,510
-April,Southern Airways,Bradford,103,1030
-April,Southern Airways,DuBois,102,1020
-April,Southern Airways,Franklin,81,810
-April,Southern Airways,Hagerstown,30,300
-April,Southern Airways,Jamestown,0,0
-April,Southern Airways,Johnstown,102,1020
-April,Southern Airways,Lancaster,72,720
-April,Southern Airways,Harrisburg,51,510
-April,Southern Airways,Morgantown,102,1020
-April,American,Boston,75,"3,376"
-April,American,Charlotte,262,"31,862"
-April,American,Cancun,4,512
-April,American,Washington (National),107,"7,066"
-April,American,Dallas/Fort Worth,107,"14,916"
-April,American,New York,30,"1,332"
-April,American,New York (LaGuardia),158,8874
-April,American,Miami,90,"6,060"
-April,American,Chicago O'Hare,163,"16,175"
-April,American,Philadelphia,170,"16,392"
-April,American,Phoenix,55,"7,040"
-April,American,Raleigh-Durham,56,"2,800"
-April,Air Canada,Toronto (Pearson),84,"4,200"
-April,JetBlue,Boston,168,"16,800"
-April,JetBlue,Fort Lauderdale,30,"4,500"
-April,Delta,Atlanta,223,"33,764"
-April,Delta,Boston,56,"4,256"
-April,Delta,Cancun,4,596
-April,Delta,Detroit,142,13618
-April,Delta,New York,90,"6,840"
-April,Delta,New York (LaGuardia),185,"13,319"
-April,Delta,Orlando,0,0
-April,Delta,Minneapolis,99,10431
-April,Frontier,Denver,10,1500
-April,Frontier,Las Vegas,0,0
-April,Frontier,Orlando,3,690
-April,Allegiant Air,Austin,9,"1,404"
-April,Allegiant Air,Charleston,8,"1,248"
-April,Allegiant Air,Jacksonville,10,"1,560"
-April,Allegiant Air,New Orleans,9,"1,404"
-April,Allegiant Air,Myrtle Beach,8,"1,248"
-April,Allegiant Air,Punta Gorda,21,3444
-April,Allegiant Air,St. Pete/Clearwater,18,2976
-April,Allegiant Air,Savannah/Hilton Head,12,1872
-April,Allegiant Air,Orlando/Sanford,13,2160
-April,Allegiant Air,San Juan,0,0
-April,Allegiant Air,Sarasota/Bradenton,6,936
-April,OneJet,Albany,21,147
-April,OneJet,Hartford,42,294
-April,OneJet,Cincinnati,0,0
-April,OneJet,Indianapolis,42,294
-April,OneJet,Kansas City,42,1260
-April,OneJet,Milwaukee,21,147
-April,OneJet,Palm Beach,17,510
-April,OneJet,Providence,21,147
-April,OneJet,Richmond,0,0
-April,OneJet,Louisville,42,294
-April,Spirit,Dallas/Fort Worth,25,"3,884"
-April,Spirit,Fort Lauderdale,25,3847
-April,Spirit,Las Vegas,30,4757
-April,Spirit,Los Angeles,30,"4,350"
-April,Spirit,Orlando,30,4757
-April,Spirit,Myrtle Beach,24,"3,702"
-April,Spirit,Ft. Myers,11,"2,002"
-April,Spirit,Tampa,11,"2,002"
-April,Porter,Toronto (City Center),0,0
-April,United,Denver,56,"8,018"
-April,United,Newark,204,"14,928"
-April,United,Washington (Dulles),114,"8,956"
-April,United,Houston (Intercontinental),118,"8,420"
-April,United,Chicago O'Hare,176,"16,218"
-April,United,San Francisco,30,"5,228"
-April,Southwest,Atlanta,55,"8,569"
-April,Southwest,Nashville,50,"7,150"
-April,Southwest,Baltimore,81,"11,935"
-April,Southwest,Dallas (Love),30,4354
-April,Southwest,Denver,31,4529
-April,Southwest,Fort Lauderdale,40,6232
-April,Southwest,Houston (Hobby),30,"4,546"
-April,Southwest,Las Vegas,56,9608
-April,Southwest,Los Angeles,26,4358
-April,Southwest,Orlando,130,20318
-April,Southwest,Chicago (Midway),132,19996
-April,Southwest,New Orleans,5,715
-April,Southwest,Palm Beach,1,143
-April,Southwest,Phoenix,30,4962
-April,Southwest,Ft. Myers,40,6456
-April,Southwest,St. Louis,34,4990
-April,Southwest,Tampa,91,13013
-April,WOW air,Reykjavik,18,3600
-March,Southern Airways,Altoona,53,530
-March,Southern Airways,Bradford,106,1060
-March,Southern Airways,DuBois,106,1060
-March,Southern Airways,Franklin,84,840
-March,Southern Airways,Hagerstown,31,310
-March,Southern Airways,Jamestown,106,1060
-March,Southern Airways,Johnstown,106,1060
-March,Southern Airways,Lancaster,75,750
-March,Southern Airways,Harrisburg,53,530
-March,Southern Airways,Morgantown,106,1060
-March,American,Boston,52,"3,276"
-March,American,Charlotte,260,"31,318"
-March,American,Cancun,5,640
-March,American,Washington (National),115,"7,362"
-March,American,Dallas/Fort Worth,114,"16,400"
-March,American,New York,31,"1,550"
-March,American,New York (LaGuardia),187,11352
-March,American,Miami,93,"6,262"
-March,American,Chicago O'Hare,146,"14,673"
-March,American,Philadelphia,172,"18,113"
-March,American,Phoenix,61,"7,808"
-March,American,Raleigh-Durham,57,"2,850"
-March,Air Canada,Toronto (Pearson),87,"4,350"
-March,JetBlue,Boston,171,"17,100"
-March,JetBlue,Fort Lauderdale,31,"4,650"
-March,Delta,Atlanta,229,"34,755"
-March,Delta,Boston,57,"4,332"
-March,Delta,Cancun,5,745
-March,Delta,Detroit,145,14387
-March,Delta,New York,93,"7,149"
-March,Delta,New York (LaGuardia),188,"13,679"
-March,Delta,Orlando,5,380
-March,Delta,Minneapolis,101,7777
-March,Frontier,Las Vegas,0,0
-March,Frontier,Orlando,13,2990
-March,Allegiant Air,Austin,9,"1,404"
-March,Allegiant Air,Jacksonville,11,"1,716"
-March,Allegiant Air,New Orleans,9,"1,404"
-March,Allegiant Air,Punta Gorda,22,"3,432"
-March,Allegiant Air,St. Pete/Clearwater,22,"3,474"
-March,Allegiant Air,Savannah/Hilton Head,12,"1,872"
-March,Allegiant Air,Orlando/Sanford,18,3015
-March,Allegiant Air,San Juan,0,0
-March,OneJet,Albany,44,308
-March,OneJet,Hartford,44,308
-March,OneJet,Cincinnati,36,252
-March,OneJet,Indianapolis,44,308
-March,OneJet,Kansas City,16,480
-March,OneJet,Milwaukee,44,308
-March,OneJet,Palm Beach,6,180
-March,OneJet,Providence,44,308
-March,OneJet,Richmond,36,252
-March,OneJet,Louisville,44,308
-March,Spirit,Dallas/Fort Worth,18,"3,276"
-March,Spirit,Fort Lauderdale,18,"3,276"
-March,Spirit,Las Vegas,31,"5,642"
-March,Spirit,Los Angeles,31,"4,495"
-March,Spirit,Orlando,31,"5,642"
-March,Spirit,Myrtle Beach,10,1820
-March,Spirit,Ft. Myers,31,5642
-March,Spirit,Tampa,31,"5,642"
-March,Porter,Toronto (City Center),0,0
-March,United,Denver,57,"8,724"
-March,United,Newark,208,"15,454"
-March,United,Washington (Dulles),121,"8,656"
-March,United,Houston (Intercontinental),150,"10,921"
-March,United,Chicago O'Hare,181,"14,372"
-March,United,San Francisco,22,"3,848"
-March,Southwest,Atlanta,58,"8,550"
-March,Southwest,Nashville,31,"4,433"
-March,Southwest,Baltimore,85,"13,339"
-March,Southwest,Dallas (Love),31,"4,689"
-March,Southwest,Denver,35,"5,037"
-March,Southwest,Fort Lauderdale,57,"8,471"
-March,Southwest,Houston (Hobby),31,"5,041"
-March,Southwest,Las Vegas,51,8285
-March,Southwest,Los Angeles,26,3878
-March,Southwest,Orlando,140,21396
-March,Southwest,Chicago (Midway),131,"20,205"
-March,Southwest,New Orleans,4,572
-March,Southwest,Palm Beach,4,572
-March,Southwest,Phoenix,31,4561
-March,Southwest,Ft. Myers,61,9683
-March,Southwest,St. Louis,31,4625
-March,Southwest,Tampa,90,12870
-March,WOW air,Reykjavik,17,3400
-February,Southern Airways,Altoona,48,480
-February,Southern Airways,Bradford,96,960
-February,Southern Airways,DuBois,96,960
-February,Southern Airways,Franklin,76,760
-February,Southern Airways,Hagerstown,28,280
-February,Southern Airways,Jamestown,96,960
-February,Southern Airways,Johnstown,96,960
-February,Southern Airways,Lancaster,68,680
-February,Southern Airways,Harrisburg,48,480
-February,Southern Airways,Morgantown,76,760
-February,American,Boston,48,"3,024"
-February,American,Charlotte,230,"26,848"
-February,American,Cancun,2,256
-February,American,Washington (National),106,"6,756"
-February,American,Dallas/Fort Worth,93,"13,420"
-February,American,New York,28,"1,400"
-February,American,Los Angeles,0,0
-February,American,New York (LaGuardia),172,"10,504"
-February,American,Miami,84,"5,656"
-February,American,Chicago O'Hare,132,"14,192"
-February,American,Philadelphia,162,"17,250"
-February,American,Phoenix,54,"6,912"
-February,American,Raleigh-Durham,52,"2,600"
-February,Air Canada,Toronto (Pearson),78,"3,900"
-February,JetBlue,Boston,140,"14,600"
-February,JetBlue,Fort Lauderdale,28,"4,200"
-February,Delta,Atlanta,196,"29,761"
-February,Delta,Boston,49,"3,724"
-February,Delta,Cancun,4,596
-February,Delta,Detroit,125,"11,504"
-February,Delta,New York,84,"6,384"
-February,Delta,New York (LaGuardia),159,"11,538"
-February,Delta,Orlando,2,152
-February,Delta,Minneapolis,77,6903
-February,Frontier,Las Vegas,0,0
-February,Frontier,Orlando,12,"2,760"
-February,Allegiant Air,Austin,8,"1,248"
-February,Allegiant Air,Jacksonville,10,"1,560"
-February,Allegiant Air,New Orleans,8,"1,248"
-February,Allegiant Air,Punta Gorda,17,"2,652"
-February,Allegiant Air,St. Pete/Clearwater,16,"2,517"
-February,Allegiant Air,Savannah/Hilton Head,5,780
-February,Allegiant Air,Orlando/Sanford,10,1664
-February,Allegiant Air,San Juan,0,0
-February,OneJet,Albany,40,280
-February,OneJet,Hartford,40,280
-February,OneJet,Cincinnati,0,0
-February,OneJet,Indianapolis,40,280
-February,OneJet,Milwaukee,40,280
-February,OneJet,Providence,40,280
-February,OneJet,Louisville,40,280
-February,Spirit,Dallas/Fort Worth,16,2912
-February,Spirit,Fort Lauderdale,16,"2,912"
-February,Spirit,Las Vegas,28,"5,096"
-February,Spirit,Los Angeles,28,"4,060"
-February,Spirit,Orlando,28,"5,096"
-February,Spirit,Ft. Myers,28,"5,096"
-February,Spirit,Tampa,28,"5,096"
-February,Porter,Toronto (City Center),0,0
-February,United,Denver,52,7271
-February,United,Newark,188,"13,814"
-February,United,Washington (Dulles),109,"7,714"
-February,United,Houston (Intercontinental),132,"9,558"
-February,United,Chicago O'Hare,148,"14,719"
-February,Southwest,Atlanta,54,"7,850"
-February,Southwest,Nashville,28,"4,004"
-February,Southwest,Baltimore,77,"11,043"
-February,Southwest,Dallas (Love),28,"4,612"
-February,Southwest,Denver,28,"4,068"
-February,Southwest,Fort Lauderdale,36,"5,884"
-February,Southwest,Houston (Hobby),28,"4,292"
-February,Southwest,Las Vegas,28,"4,740"
-February,Southwest,Los Angeles,24,"4,040"
-February,Southwest,Orlando,117,"16,891"
-February,Southwest,Chicago (Midway),113,"16,799"
-February,`,New Orleans,4,572
-February,Southwest,Phoenix,28,4132
-February,Southwest,Ft. Myers,51,8189
-February,Southwest,St. Louis,28,"4,260"
-February,Southwest,Tampa,55,"7,865"
-February,WOW air,Reykjavik,16,"3,200"
-January,Southern Airways,Altoona,54,540
-January,Southern Airways,Bradford,110,"1,100"
-January,Southern Airways,DuBois,108,"1,080"
-January,Southern Airways,Franklin,85,850
-January,Southern Airways,Hagerstown,31,310
-January,Southern Airways,Jamestown,108,"1,080"
-January,Southern Airways,Johnstown,108,"1,080"
-January,Southern Airways,Lancaster,77,770
-January,Southern Airways,Harrisburg,52,520
-January,Southern Airways,Morgantown,85,850
-January,American,Boston,42,"2,646"
-January,American,Charlotte,249,"27,965"
-January,American,Cancun,0,0
-January,American,Washington (National),112,"7,212"
-January,American,Dallas/Fort Worth,89,"12,820"
-January,American,New York,31,"1,550"
-January,American,Los Angeles,0,0
-January,American,New York (LaGuardia),173,"10,548"
-January,American,Miami,93,"6,262"
-January,American,Chicago O'Hare,154,"17,064"
-January,American,Philadelphia,182,"18,399"
-January,American,Phoenix,58,"7,424"
-January,American,Raleigh-Durham,45,"2,250"
-January,Air Canada,Toronto (Pearson),89,"4,450"
-January,JetBlue,Boston,163,"17,500"
-January,JetBlue,Fort Lauderdale,31,"4,650"
-January,Delta,Atlanta,210,"31,331"
-January,Delta,Boston,53,"4,028"
-January,Delta,Cancun,4,596
-January,Delta,Detroit,138,"12,663"
-January,Delta,New York,92,"6,914"
-January,Delta,New York (LaGuardia),167,"12,020"
-January,Delta,Minneapolis,85,"7,476"
-January,Frontier,Denver,0,0
-January,Frontier,Las Vegas,0,0
-January,Frontier,Orlando,13,"2,990"
-January,Allegiant Air,Austin,9,"1,404"
-January,Allegiant Air,Jacksonville,9,"1,404"
-January,Allegiant Air,New Orleans,9,"1,404"
-January,Allegiant Air,Punta Gorda,13,"2,028"
-January,Allegiant Air,St. Pete/Clearwater,12,"1,893"
-January,Allegiant Air,Orlando/Sanford,9,"1,454"
-January,Allegiant Air,San Juan,0,0
-January,OneJet,Albany,36,252
-January,OneJet,Hartford,36,252
-January,OneJet,Cincinnati,36,252
-January,OneJet,Indianapolis,36,252
-January,OneJet,Milwaukee,36,252
-January,OneJet,Providence,36,252
-January,OneJet,Richmond,36,252
-January,OneJet,Louisville,36,252
-January,Spirit,Dallas/Fort Worth,18,3252
-January,Spirit,Fort Lauderdale,18,"3,276"
-January,Spirit,Las Vegas,31,"5,642"
-January,Spirit,Los Angeles,31,"4,495"
-January,Spirit,Orlando,31,"5,642"
-January,Spirit,Ft. Myers,31,"5,642"
-January,Spirit,Tampa,31,"5,642"
-January,Porter,Toronto (City Center),0,0
-January,United,Denver,59,7889
-January,United,Newark,205,"15,071"
-January,United,Washington (Dulles),124,"8,986"
-January,United,Houston (Intercontinental),145,"10,384"
-January,United,Chicago O'Hare,149,"15,288"
-January,United,San Francisco,7,"1,201"
-January,Southwest,Atlanta,62,"9,026"
-January,Southwest,Nashville,31,"4,465"
-January,Southwest,Baltimore,95,"13,617"
-January,Southwest,Dallas (Love),31,"5,169"
-January,Southwest,Denver,31,"4,529"
-January,Southwest,Fort Lauderdale,40,"6,456"
-January,Southwest,Houston (Hobby),32,"4,928"
-January,Southwest,Las Vegas,37,"6,219"
-January,Southwest,Los Angeles,27,"4,565"
-January,Southwest,Orlando,128,"18,592"
-January,Southwest,Chicago (Midway),133,"19,819"
-January,Southwest,New Orleans,4,572
-January,Southwest,Phoenix,30,4418
-January,Southwest,Ft. Myers,30,"4,482"
-January,Southwest,St. Louis,31,"4,657"
-January,Southwest,Tampa,62,"8,994"
-January,WOW air,Reykjavik,18,"3,600"
+month,airline,destination,number,seats,,,,,,,
+April,Southern Airways,Altoona,51,510,,,,,,,
+April,Southern Airways,Bradford,103,1030,,,,,,,
+April,Southern Airways,DuBois,102,1020,,,,,,,
+April,Southern Airways,Franklin,81,810,,,,,,,
+April,Southern Airways,Hagerstown,30,300,,,,,,,
+April,Southern Airways,Jamestown,0,0,,,,,,,
+April,Southern Airways,Johnstown,102,1020,,,,,,,
+April,Southern Airways,Lancaster,72,720,,,,,,,
+April,Southern Airways,Harrisburg,51,510,,,,,,,
+April,Southern Airways,Morgantown,102,1020,,,,,,,
+April,American,Boston,75,"3,376",,,,,,,
+April,American,Charlotte,262,"31,862",,,,,,,
+April,American,Cancun,4,512,,,,,,,
+April,American,Washington (National),107,"7,066",,,,,,,`
+April,American,Dallas/Fort Worth,107,"14,916",,,,,,,
+April,American,New York,30,"1,332",,,,,,,
+April,American,New York (LaGuardia),158,8874,,,,,,,
+April,American,Miami,90,"6,060",,,,,,,
+April,American,Chicago O'Hare,163,"16,175",,,,,,,
+April,American,Philadelphia,170,"16,392",,,,,,,
+April,American,Phoenix,55,"7,040",,,,,,,
+April,American,Raleigh-Durham,56,"2,800",,,,,,,
+April,Air Canada,Toronto (Pearson),84,"4,200",,,,,,,
+April,JetBlue,Boston,168,"16,800",,,,,,,
+April,JetBlue,Fort Lauderdale,30,"4,500",,,,,,,
+April,Delta,Atlanta,223,"33,764",,,,,,,
+April,Delta,Boston,56,"4,256",,,,,,,
+April,Delta,Cancun,4,596,,,,,,,
+April,Delta,Detroit,142,13618,,,,,,,
+April,Delta,New York,90,"6,840",,,,,,,
+April,Delta,New York (LaGuardia),185,"13,319",,,,,,,
+April,Delta,Orlando,0,0,,,,,,,
+April,Delta,Minneapolis,99,10431,,,,,,,
+April,Frontier,Denver,10,1500,,,,,,,
+April,Frontier,Las Vegas,0,0,,,,,,,
+April,Frontier,Orlando,3,690,,,,,,,
+April,Allegiant Air,Austin,9,"1,404",,,,,,,
+April,Allegiant Air,Charleston,8,"1,248",,,,,,,
+April,Allegiant Air,Jacksonville,10,"1,560",,,,,,,
+April,Allegiant Air,New Orleans,9,"1,404",,,,,,,
+April,Allegiant Air,Myrtle Beach,8,"1,248",,,,,,,
+April,Allegiant Air,Punta Gorda,21,3444,,,,,,,
+April,Allegiant Air,St. Pete/Clearwater,18,2976,,,,,,,
+April,Allegiant Air,Savannah/Hilton Head,12,1872,,,,,,,
+April,Allegiant Air,Orlando/Sanford,13,2160,,,,,,,
+April,Allegiant Air,San Juan,0,0,,,,,,,
+April,Allegiant Air,Sarasota/Bradenton,6,936,,,,,,,
+April,OneJet,Albany,21,147,,,,,,,
+April,OneJet,Hartford,42,294,,,,,,,
+April,OneJet,Cincinnati,0,0,,,,,,,
+April,OneJet,Indianapolis,42,294,,,,,,,
+April,OneJet,Kansas City,42,1260,,,,,,,
+April,OneJet,Milwaukee,21,147,,,,,,,
+April,OneJet,Palm Beach,17,510,,,,,,,
+April,OneJet,Providence,21,147,,,,,,,
+April,OneJet,Richmond,0,0,,,,,,,
+April,OneJet,Louisville,42,294,,,,,,,
+April,Spirit,Dallas/Fort Worth,25,"3,884",,,,,,,
+April,Spirit,Fort Lauderdale,25,3847,,,,,,,
+April,Spirit,Las Vegas,30,4757,,,,,,,
+April,Spirit,Los Angeles,30,"4,350",,,,,,,
+April,Spirit,Orlando,30,4757,,,,,,,
+April,Spirit,Myrtle Beach,24,"3,702",,,,,,,
+April,Spirit,Ft. Myers,11,"2,002",,,,,,,
+April,Spirit,Tampa,11,"2,002",,,,,,,
+April,Porter,Toronto (City Center),0,0,,,,,,,
+April,United,Denver,56,"8,018",,,,,,,
+April,United,Newark,204,"14,928",,,,,,,
+April,United,Washington (Dulles),114,"8,956",,,,,,,
+April,United,Houston (Intercontinental),118,"8,420",,,,,,,
+April,United,Chicago O'Hare,176,"16,218",,,,,,,
+April,United,San Francisco,30,"5,228",,,,,,,
+April,Southwest,Atlanta,55,"8,569",,,,,,,
+April,Southwest,Nashville,50,"7,150",,,,,,,
+April,Southwest,Baltimore,81,"11,935",,,,,,,
+April,Southwest,Dallas (Love),30,4354,,,,,,,
+April,Southwest,Denver,31,4529,,,,,,,
+April,Southwest,Fort Lauderdale,40,6232,,,,,,,
+April,Southwest,Houston (Hobby),30,"4,546",,,,,,,
+April,Southwest,Las Vegas,56,9608,,,,,,,
+April,Southwest,Los Angeles,26,4358,,,,,,,
+April,Southwest,Orlando,130,20318,,,,,,,
+April,Southwest,Chicago (Midway),132,19996,,,,,,,
+April,Southwest,New Orleans,5,715,,,,,,,
+April,Southwest,Palm Beach,1,143,,,,,,,
+April,Southwest,Phoenix,30,4962,,,,,,,
+April,Southwest,Ft. Myers,40,6456,,,,,,,
+April,Southwest,St. Louis,34,4990,,,,,,,
+April,Southwest,Tampa,91,13013,,,,,,,
+April,WOW air,Reykjavik,18,3600,,,,,,,
+March,Southern Airways,Altoona,53,530,,,,,,,
+March,Southern Airways,Bradford,106,1060,,,,,,,
+March,Southern Airways,DuBois,106,1060,,,,,,,
+March,Southern Airways,Franklin,84,840,,,,,,,
+March,Southern Airways,Hagerstown,31,310,,,,,,,
+March,Southern Airways,Jamestown,106,1060,,,,,,,
+March,Southern Airways,Johnstown,106,1060,,,,,,,
+March,Southern Airways,Lancaster,75,750,,,,,,,
+March,Southern Airways,Harrisburg,53,530,,,,,,,
+March,Southern Airways,Morgantown,106,1060,,,,,,,
+March,American,Boston,52,"3,276",,,,,,,
+March,American,Charlotte,260,"31,318",,,,,,,
+March,American,Cancun,5,640,,,,,,,
+March,American,Washington (National),115,"7,362",,,,,,,
+March,American,Dallas/Fort Worth,114,"16,400",,,,,,,
+March,American,New York,31,"1,550",,,,,,,
+March,American,New York (LaGuardia),187,11352,,,,,,,
+March,American,Miami,93,"6,262",,,,,,,
+March,American,Chicago O'Hare,146,"14,673",,,,,,,
+March,American,Philadelphia,172,"18,113",,,,,,,
+March,American,Phoenix,61,"7,808",,,,,,,
+March,American,Raleigh-Durham,57,"2,850",,,,,,,
+March,Air Canada,Toronto (Pearson),87,"4,350",,,,,,,
+March,JetBlue,Boston,171,"17,100",,,,,,,
+March,JetBlue,Fort Lauderdale,31,"4,650",,,,,,,
+March,Delta,Atlanta,229,"34,755",,,,,,,
+March,Delta,Boston,57,"4,332",,,,,,,
+March,Delta,Cancun,5,745,,,,,,,
+March,Delta,Detroit,145,14387,,,,,,,
+March,Delta,New York,93,"7,149",,,,,,,
+March,Delta,New York (LaGuardia),188,"13,679",,,,,,,
+March,Delta,Orlando,5,380,,,,,,,
+March,Delta,Minneapolis,101,7777,,,,,,,
+March,Frontier,Las Vegas,0,0,,,,,,,
+March,Frontier,Orlando,13,2990,,,,,,,
+March,Allegiant Air,Austin,9,"1,404",,,,,,,
+March,Allegiant Air,Jacksonville,11,"1,716",,,,,,,
+March,Allegiant Air,New Orleans,9,"1,404",,,,,,,
+March,Allegiant Air,Punta Gorda,22,"3,432",,,,,,,
+March,Allegiant Air,St. Pete/Clearwater,22,"3,474",,,,,,,
+March,Allegiant Air,Savannah/Hilton Head,12,"1,872",,,,,,,
+March,Allegiant Air,Orlando/Sanford,18,3015,,,,,,,
+March,Allegiant Air,San Juan,0,0,,,,,,,
+March,OneJet,Albany,44,308,,,,,,,
+March,OneJet,Hartford,44,308,,,,,,,
+March,OneJet,Cincinnati,36,252,,,,,,,
+March,OneJet,Indianapolis,44,308,,,,,,,
+March,OneJet,Kansas City,16,480,,,,,,,
+March,OneJet,Milwaukee,44,308,,,,,,,
+March,OneJet,Palm Beach,6,180,,,,,,,
+March,OneJet,Providence,44,308,,,,,,,
+March,OneJet,Richmond,36,252,,,,,,,
+March,OneJet,Louisville,44,308,,,,,,,
+March,Spirit,Dallas/Fort Worth,18,"3,276",,,,,,,
+March,Spirit,Fort Lauderdale,18,"3,276",,,,,,,
+March,Spirit,Las Vegas,31,"5,642",,,,,,,
+March,Spirit,Los Angeles,31,"4,495",,,,,,,
+March,Spirit,Orlando,31,"5,642",,,,,,,
+March,Spirit,Myrtle Beach,10,1820,,,,,,,
+March,Spirit,Ft. Myers,31,5642,,,,,,,
+March,Spirit,Tampa,31,"5,642",,,,,,,
+March,Porter,Toronto (City Center),0,0,,,,,,,
+March,United,Denver,57,"8,724",,,,,,,
+March,United,Newark,208,"15,454",,,,,,,
+March,United,Washington (Dulles),121,"8,656",,,,,,,
+March,United,Houston (Intercontinental),150,"10,921",,,,,,,
+March,United,Chicago O'Hare,181,"14,372",,,,,,,
+March,United,San Francisco,22,"3,848",,,,,,,
+March,Southwest,Atlanta,58,"8,550",,,,,,,
+March,Southwest,Nashville,31,"4,433",,,,,,,
+March,Southwest,Baltimore,85,"13,339",,,,,,,
+March,Southwest,Dallas (Love),31,"4,689",,,,,,,
+March,Southwest,Denver,35,"5,037",,,,,,,
+March,Southwest,Fort Lauderdale,57,"8,471",,,,,,,
+March,Southwest,Houston (Hobby),31,"5,041",,,,,,,
+March,Southwest,Las Vegas,51,8285,,,,,,,
+March,Southwest,Los Angeles,26,3878,,,,,,,
+March,Southwest,Orlando,140,21396,,,,,,,
+March,Southwest,Chicago (Midway),131,"20,205",,,,,,,
+March,Southwest,New Orleans,4,572,,,,,,,
+March,Southwest,Palm Beach,4,572,,,,,,,
+March,Southwest,Phoenix,31,4561,,,,,,,
+March,Southwest,Ft. Myers,61,9683,,,,,,,
+March,Southwest,St. Louis,31,4625,,,,,,,
+March,Southwest,Tampa,90,12870,,,,,,,
+March,WOW air,Reykjavik,17,3400,,,,,,,
+February,Southern Airways,Altoona,48,480,,,,,,,
+February,Southern Airways,Bradford,96,960,,,,,,,
+February,Southern Airways,DuBois,96,960,,,,,,,
+February,Southern Airways,Franklin,76,760,,,,,,,
+February,Southern Airways,Hagerstown,28,280,,,,,,,
+February,Southern Airways,Jamestown,96,960,,,,,,,
+February,Southern Airways,Johnstown,96,960,,,,,,,
+February,Southern Airways,Lancaster,68,680,,,,,,,
+February,Southern Airways,Harrisburg,48,480,,,,,,,
+February,Southern Airways,Morgantown,76,760,,,,,,,
+February,American,Boston,48,"3,024",,,,,,,
+February,American,Charlotte,230,"26,848",,,,,,,
+February,American,Cancun,2,256,,,,,,,
+February,American,Washington (National),106,"6,756",,,,,,,
+February,American,Dallas/Fort Worth,93,"13,420",,,,,,,
+February,American,New York,28,"1,400",,,,,,,
+February,American,Los Angeles,0,0,,,,,,,
+February,American,New York (LaGuardia),172,"10,504",,,,,,,
+February,American,Miami,84,"5,656",,,,,,,
+February,American,Chicago O'Hare,132,"14,192",,,,,,,
+February,American,Philadelphia,162,"17,250",,,,,,,
+February,American,Phoenix,54,"6,912",,,,,,,
+February,American,Raleigh-Durham,52,"2,600",,,,,,,
+February,Air Canada,Toronto (Pearson),78,"3,900",,,,,,,
+February,JetBlue,Boston,140,"14,600",,,,,,,
+February,JetBlue,Fort Lauderdale,28,"4,200",,,,,,,
+February,Delta,Atlanta,196,"29,761",,,,,,,
+February,Delta,Boston,49,"3,724",,,,,,,
+February,Delta,Cancun,4,596,,,,,,,
+February,Delta,Detroit,125,"11,504",,,,,,,
+February,Delta,New York,84,"6,384",,,,,,,
+February,Delta,New York (LaGuardia),159,"11,538",,,,,,,
+February,Delta,Orlando,2,152,,,,,,,
+February,Delta,Minneapolis,77,6903,,,,,,,
+February,Frontier,Las Vegas,0,0,,,,,,,
+February,Frontier,Orlando,12,"2,760",,,,,,,
+February,Allegiant Air,Austin,8,"1,248",,,,,,,
+February,Allegiant Air,Jacksonville,10,"1,560",,,,,,,
+February,Allegiant Air,New Orleans,8,"1,248",,,,,,,
+February,Allegiant Air,Punta Gorda,17,"2,652",,,,,,,
+February,Allegiant Air,St. Pete/Clearwater,16,"2,517",,,,,,,
+February,Allegiant Air,Savannah/Hilton Head,5,780,,,,,,,
+February,Allegiant Air,Orlando/Sanford,10,1664,,,,,,,
+February,Allegiant Air,San Juan,0,0,,,,,,,
+February,OneJet,Albany,40,280,,,,,,,
+February,OneJet,Hartford,40,280,,,,,,,
+February,OneJet,Cincinnati,0,0,,,,,,,
+February,OneJet,Indianapolis,40,280,,,,,,,
+February,OneJet,Milwaukee,40,280,,,,,,,
+February,OneJet,Providence,40,280,,,,,,,
+February,OneJet,Louisville,40,280,,,,,,,
+February,Spirit,Dallas/Fort Worth,16,2912,,,,,,,
+February,Spirit,Fort Lauderdale,16,"2,912",,,,,,,
+February,Spirit,Las Vegas,28,"5,096",,,,,,,
+February,Spirit,Los Angeles,28,"4,060",,,,,,,
+February,Spirit,Orlando,28,"5,096",,,,,,,
+February,Spirit,Ft. Myers,28,"5,096",,,,,,,
+February,Spirit,Tampa,28,"5,096",,,,,,,
+February,Porter,Toronto (City Center),0,0,,,,,,,
+February,United,Denver,52,7271,,,,,,,
+February,United,Newark,188,"13,814",,,,,,,
+February,United,Washington (Dulles),109,"7,714",,,,,,,
+February,United,Houston (Intercontinental),132,"9,558",,,,,,,
+February,United,Chicago O'Hare,148,"14,719",,,,,,,
+February,Southwest,Atlanta,54,"7,850",,,,,,,
+February,Southwest,Nashville,28,"4,004",,,,,,,
+February,Southwest,Baltimore,77,"11,043",,,,,,,
+February,Southwest,Dallas (Love),28,"4,612",,,,,,,
+February,Southwest,Denver,28,"4,068",,,,,,,
+February,Southwest,Fort Lauderdale,36,"5,884",,,,,,,
+February,Southwest,Houston (Hobby),28,"4,292",,,,,,,
+February,Southwest,Las Vegas,28,"4,740",,,,,,,
+February,Southwest,Los Angeles,24,"4,040",,,,,,,
+February,Southwest,Orlando,117,"16,891",,,,,,,
+February,Southwest,Chicago (Midway),113,"16,799",,,,,,,
+February,`,New Orleans,4,572,,,,,,,
+February,Southwest,Phoenix,28,4132,,,,,,,
+February,Southwest,Ft. Myers,51,8189,,,,,,,
+February,Southwest,St. Louis,28,"4,260",,,,,,,
+February,Southwest,Tampa,55,"7,865",,,,,,,
+February,WOW air,Reykjavik,16,"3,200",,,,,,,
+January,Southern Airways,Altoona,54,540,,,,,,,
+January,Southern Airways,Bradford,110,"1,100",,,,,,,
+January,Southern Airways,DuBois,108,"1,080",,,,,,,
+January,Southern Airways,Franklin,85,850,,,,,,,
+January,Southern Airways,Hagerstown,31,310,,,,,,,
+January,Southern Airways,Jamestown,108,"1,080",,,,,,,
+January,Southern Airways,Johnstown,108,"1,080",,,,,,,
+January,Southern Airways,Lancaster,77,770,,,,,,,
+January,Southern Airways,Harrisburg,52,520,,,,,,,
+January,Southern Airways,Morgantown,85,850,,,,,,,
+January,American,Boston,42,"2,646",,,,,,,
+January,American,Charlotte,249,"27,965",,,,,,,
+January,American,Cancun,0,0,,,,,,,
+January,American,Washington (National),112,"7,212",,,,,,,
+January,American,Dallas/Fort Worth,89,"12,820",,,,,,,
+January,American,New York,31,"1,550",,,,,,,
+January,American,Los Angeles,0,0,,,,,,,
+January,American,New York (LaGuardia),173,"10,548",,,,,,,
+January,American,Miami,93,"6,262",,,,,,,
+January,American,Chicago O'Hare,154,"17,064",,,,,,,
+January,American,Philadelphia,182,"18,399",,,,,,,
+January,American,Phoenix,58,"7,424",,,,,,,
+January,American,Raleigh-Durham,45,"2,250",,,,,,,
+January,Air Canada,Toronto (Pearson),89,"4,450",,,,,,,
+January,JetBlue,Boston,163,"17,500",,,,,,,
+January,JetBlue,Fort Lauderdale,31,"4,650",,,,,,,
+January,Delta,Atlanta,210,"31,331",,,,,,,
+January,Delta,Boston,53,"4,028",,,,,,,
+January,Delta,Cancun,4,596,,,,,,,
+January,Delta,Detroit,138,"12,663",,,,,,,
+January,Delta,New York,92,"6,914",,,,,,,
+January,Delta,New York (LaGuardia),167,"12,020",,,,,,,
+January,Delta,Minneapolis,85,"7,476",,,,,,,
+January,Frontier,Denver,0,0,,,,,,,
+January,Frontier,Las Vegas,0,0,,,,,,,
+January,Frontier,Orlando,13,"2,990",,,,,,,
+January,Allegiant Air,Austin,9,"1,404",,,,,,,
+January,Allegiant Air,Jacksonville,9,"1,404",,,,,,,
+January,Allegiant Air,New Orleans,9,"1,404",,,,,,,
+January,Allegiant Air,Punta Gorda,13,"2,028",,,,,,,
+January,Allegiant Air,St. Pete/Clearwater,12,"1,893",,,,,,,
+January,Allegiant Air,Orlando/Sanford,9,"1,454",,,,,,,
+January,Allegiant Air,San Juan,0,0,,,,,,,
+January,OneJet,Albany,36,252,,,,,,,
+January,OneJet,Hartford,36,252,,,,,,,
+January,OneJet,Cincinnati,36,252,,,,,,,
+January,OneJet,Indianapolis,36,252,,,,,,,
+January,OneJet,Milwaukee,36,252,,,,,,,
+January,OneJet,Providence,36,252,,,,,,,
+January,OneJet,Richmond,36,252,,,,,,,
+January,OneJet,Louisville,36,252,,,,,,,
+January,Spirit,Dallas/Fort Worth,18,3252,,,,,,,
+January,Spirit,Fort Lauderdale,18,"3,276",,,,,,,
+January,Spirit,Las Vegas,31,"5,642",,,,,,,
+January,Spirit,Los Angeles,31,"4,495",,,,,,,
+January,Spirit,Orlando,31,"5,642",,,,,,,
+January,Spirit,Ft. Myers,31,"5,642",,,,,,,
+January,Spirit,Tampa,31,"5,642",,,,,,,
+January,Porter,Toronto (City Center),0,0,,,,,,,
+January,United,Denver,59,7889,,,,,,,
+January,United,Newark,205,"15,071",,,,,,,
+January,United,Washington (Dulles),124,"8,986",,,,,,,
+January,United,Houston (Intercontinental),145,"10,384",,,,,,,
+January,United,Chicago O'Hare,149,"15,288",,,,,,,
+January,United,San Francisco,7,"1,201",,,,,,,
+January,Southwest,Atlanta,62,"9,026",,,,,,,
+January,Southwest,Nashville,31,"4,465",,,,,,,
+January,Southwest,Baltimore,95,"13,617",,,,,,,
+January,Southwest,Dallas (Love),31,"5,169",,,,,,,
+January,Southwest,Denver,31,"4,529",,,,,,,
+January,Southwest,Fort Lauderdale,40,"6,456",,,,,,,
+January,Southwest,Houston (Hobby),32,"4,928",,,,,,,
+January,Southwest,Las Vegas,37,"6,219",,,,,,,
+January,Southwest,Los Angeles,27,"4,565",,,,,,,
+January,Southwest,Orlando,128,"18,592",,,,,,,
+January,Southwest,Chicago (Midway),133,"19,819",,,,,,,
+January,Southwest,New Orleans,4,572,,,,,,,
+January,Southwest,Phoenix,30,4418,,,,,,,
+January,Southwest,Ft. Myers,30,"4,482",,,,,,,
+January,Southwest,St. Louis,31,"4,657",,,,,,,
+January,Southwest,Tampa,62,"8,994",,,,,,,
+January,WOW air,Reykjavik,18,"3,600",,,,,,,
