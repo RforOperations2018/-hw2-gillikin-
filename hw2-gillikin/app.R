@@ -17,23 +17,37 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                  tabPanel("Plot",
                           sidebarLayout(
                             sidebarPanel(
+                              # Input: Text input to let the viewer decide what the plot should mean
                               textInput(inputId = "caption",
                                         label = "Your chance to name this plot:",
                                         value = "Data Summary"),
+                              
+                              # Input: Select box to make picking a favorite airline easier
                               selectInput("airlineSelect",
                                           "Now pick an Airline: ",
                                           choices = sort(unique(flightData$airline)),
                                           multiple = TRUE,
                                           selectize = TRUE,
-                                          selected = c("Air Canada", "JetBlue"))),
+                                          selected = c("Air Canada", "JetBlue")),
+                            
+                            
+                              # Input: Slider to select range for number of flights in a month
+                              sliderInput("seatsSelect",
+                                        "Number of seats a flights has in a month:",
+                                        value = 20000,
+                                        min = 1,
+                                        max = 40000)
+                          ),
 
                             # Output plot
                             mainPanel(
                              
-                               # Output: Formatted text for caption ----
+                               # Output of text for the pick-your-own caption
                               h3(textOutput("caption", container = span)),
-                              
-                              plotlyOutput("plot")
+                              # Output of plot 1
+                              plotlyOutput("plot1"),
+                              # Output for plot 2
+                              plotlyOutput("plot2")
                             )
                           )
                  ),
@@ -48,20 +62,28 @@ server <- function(input, output) {
 
   fdInput <- reactive({
     flights <- flightData
-  #    filter(number >= input$numberSelect[1] & number <= input$numberSelect[2])
-    
+
     if (length(input$airlineSelect) > 0 ) {
       flights <- subset(flights, airline %in% input$airlineSelect)
     }
     
     return(flights)
   })
+  
+  
+  fdaInput <- reactive({
+    flights.a <- flightData
+    
+    filter(seats == input$seatsSelect[1])
+    
+    return(flights.a)
+  })
 
   output$caption <- renderText({
     input$caption
   })
   
-  output$plot <- renderPlotly({
+  output$plot1 <- renderPlotly({
     dat <- fdInput()
     ggplotly(
       ggplot(data = dat, aes(x = month, y = number, color = month)) + 
@@ -69,6 +91,15 @@ server <- function(input, output) {
         guides(color = FALSE)
       , tooltip = "text")
   })
+  
+
+  output$plot2 <- renderPlotly({
+    dat.a <- fdInput()
+    ggplotly(
+      ggplot(data = dat.a, aes(x = number, fill = month),environment = environment()) + 
+        geom_histogram())
+  })
+  
   output$table <- DT::renderDataTable({
     subset(fdInput(), select = c(month, airline, destination, number))
   })
