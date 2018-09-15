@@ -36,7 +36,8 @@ ui <- navbarPage("Flights from Pittsburgh International Airport, January - April
                                         "Number of seats a flights has in a month:",
                                         value = 20000,
                                         min = 1,
-                                        max = 40000)
+                                        max = 40000),
+                              actionButton("reset", "Reset Selection", icon = icon("refresh"))
                           ),
 
                             # Output plot
@@ -106,6 +107,13 @@ server <- function(input, output, session = session) {
     subset(fdInput(), select = c(month, airline, destination, number))
   })
 
+  # Reset Filter Data
+  observeEvent(input$reset, {
+    updateSelectInput(session, "airlineSelect", selected = c("Air Canada", "JetBlue"))
+    showNotification("Now ready for takeoff...", type = "message")
+  })
+  
+  
   # Download data in the datatable
   output$downloadData <- downloadHandler(
     filename = function() {
